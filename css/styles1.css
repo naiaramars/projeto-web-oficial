@@ -1,0 +1,119 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-site: #D95830;
+    --background-button: #DA785A;
+    --background-footer: #DE7756;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFF;
+}
+
+
+#logo {
+    width: 250px;
+    margin: 20px 5px 20px 15px;
+}
+
+.redes img{
+    width: 40px;
+    margin: 70px 15px 0px 15px;
+}
+
+
+.nav{
+    background-color: #D95830;
+}
+
+.nav-item a{
+    color:  #FFFFFF;
+}
+
+.active a{
+    color: #FFFFFF;
+}
+
+.dropdown-menu a{
+    color: #000000;
+}
+
+.btn-outline-success{
+    color: #000000;
+    background: #FFFFFF;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.book-details {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.book-image {
+    margin-right: 20px;
+}
+
+.book-image img {
+    width: 200px;
+    height: 300px;
+}
+
+.buy-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.book-info h1 {
+    margin-top: 0;
+}
+
+.book-info p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .book-details {
+        flex-direction: column;
+    }
+
+    .book-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .book-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.div1 {
+    color: #000000;
+    position: absolute;
+    margin-top: 250px;
+}

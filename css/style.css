@@ -1,0 +1,192 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-site: #D95830;
+    --background-button: #DA785A;
+    --background-footer: #DE7756;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFF;
+}
+
+
+#logo {
+    width: 250px;
+    margin: 20px 5px 20px 15px;
+}
+
+.redes img{
+    width: 40px;
+    margin: 70px 15px 0px 15px;
+}
+
+
+.nav{
+    background-color: #D95830;
+}
+
+.nav-item a{
+    color:  #FFFFFF;
+}
+
+.active a{
+    color: #FFFFFF;
+}
+
+.dropdown-menu a{
+    color: #000000;
+}
+
+.btn-outline-success{
+    color: #000000;
+    background: #FFFFFF;   
+}
+
+/* .carousel {
+    width: 800px;
+    margin: auto;
+} */
+
+
+.card img{
+    padding: 0px 15px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer{
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D95830;
+}
+
+footer h2{
+    color: #ffffff;
+}
+
+footer a{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.btn1 {
+    position: relative;
+    display: flex;
+}
+
+.btn1 img{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+}
+
+
+@media (max-width: 600px) {
+    footer {
+        font-size: 12px;
+    }
+}
+
+.card img{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+
+.carousel-inner img{
+    width: 1280px;
+    height: 850px;
+}
+
+h1{
+    color:#D95830;
+    text-decoration: underline;
+    padding: 15px;
+    font-size:x-large; 
+}
+
+h2{
+    color:#000000;
+    padding: 15px;
+    font-size: small;
+}
+
+h3{
+    color:#ffffff;
+}
+
+.splide__list{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 425px) {
+    button {
+        margin: 15px 0 15px 80px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part1,
+    .part2,
+    .part3 {
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.container {
+    font-size: 0; /* Para remover espaços em branco entre divs inline-block */
+}
+
+.btn2, .btn3 {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+}
+
+.btn2 img, .btn3 img{
+    width: 100%;
+    height: auto;
+}
+
+.div1 {
+    color: #000000;
+    position: absolute;
+    margin-top: 250px;
+}
